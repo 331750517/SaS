@@ -1,0 +1,27 @@
+package maven;
+
+import java.io.File;
+
+import javax.servlet.ServletException;
+
+import org.apache.catalina.Context;
+import org.apache.catalina.Host;
+import org.apache.catalina.startup.Tomcat;
+
+public class EmbeddedTomcateService {
+public static void main(String[] args) throws Exception {
+	Tomcat  tomcat = new Tomcat();
+	tomcat.setPort(12332);
+	
+	Host host = tomcat.getHost();
+	host.setName("localhost");
+	host.setAppBase("webapps");
+	
+     String webapp = System.getProperty("user.dir") + File.separator +
+               "src" + File.separator + "main" + File.separator + "webapp";
+     String contextPath = "/";
+     Context context = tomcat.addWebapp(contextPath, webapp);
+     
+
+}
+}

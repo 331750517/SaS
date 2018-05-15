@@ -1,0 +1,9 @@
+package maven;
+
+import org.apache.catalina.startup.Tomcat;
+
+public class EmbeddedTomcateService {
+public static void main(String[] args) {
+	Tomcat  tomcat = new Tomcat();
+}
+}

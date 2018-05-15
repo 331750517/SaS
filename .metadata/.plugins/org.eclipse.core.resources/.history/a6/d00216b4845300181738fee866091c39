@@ -1,0 +1,7 @@
+package maven;
+
+public class EmbeddedTomcateService {
+public static void main(String[] args) {
+	
+}
+}

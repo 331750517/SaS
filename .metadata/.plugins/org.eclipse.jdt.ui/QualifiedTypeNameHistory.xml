@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.catalina.startup.Tomcat"/>
+<fullyQualifiedTypeName name="org.apache.catalina.Host"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.apache.catalina.Context"/>
+<fullyQualifiedTypeName name="org.apache.catalina.core.StandardContext"/>
+<fullyQualifiedTypeName name="com.google.common.base.Equivalence.Wrapper"/>
+<fullyQualifiedTypeName name="org.apache.catalina.Service"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="qincongmaven.B"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,15 @@
+package maven;
+
+import org.apache.catalina.Host;
+import org.apache.catalina.startup.Tomcat;
+
+public class EmbeddedTomcateService {
+public static void main(String[] args) {
+	Tomcat  tomcat = new Tomcat();
+	tomcat.setPort(12332);
+	
+	Host host = tomcat.getHost();
+	host.setName("localhost");
+	host.setAppBase("webapps");
+}
+}
